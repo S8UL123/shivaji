@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - MyShop</title>
+  <style>
+    
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url('../IMAGE/web.webp');
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b14719;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .page-header {
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+    color: #333;
+  }
+  
+
+  .product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .product-card p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .product-card .add-to-cart {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .product-card .add-to-cart:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">MyShop</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="product.html">Products</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="con1.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="page-header">Our Products</header>
+
+  <section class="product-list">
+    <div class="product-card">
+ 
+      <img src="IMAGE/photo1.webp" alt="Product 1">
+      <h3>WOODLAND</h3>
+      <p>$5000.00</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="IMAGE/lofar.webp" alt="Product 2">
+      <h3>LOFAR</h3>
+      <p>$150.00</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="IMAGE/photo3.webp" alt="Product 3">
+      <h3>PUMA</h3>
+      <p>$200.00</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="IMAGE/photo4.webp" alt="Product 4">
+        <h3>NIKE</h3>
+        <p>$1500.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/photo5.webp" alt="Product 4">
+        <h3>HELL</h3>
+        <p>$150.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/phoyo6.webp" alt="Product 4">
+        <h3>ACER</h3>
+        <p>$10.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/photo7.webp" alt="Product 4">
+        <h3>CROPS</h3>
+        <p>$20.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/photo8.webp" alt="Product 4">
+        <h3>DMS SHOES</h3>
+        <p>$200.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/photo12.webp" alt="Product 4">
+        <h3>CHAPPAL</h3>
+        <p>$5.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/photo13.webp" alt="Product 4">
+        <h3>FLIP FLOP</h3>
+        <p>$9.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/pthon.webp" alt="Product 4">
+        <h3>PYTHON</h3>
+        <p>$5.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/slipper.webp" alt="Product 4">
+        <h3>SLIPPER</h3>
+        <p>$9.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/formal.webp" alt="Product 4">
+        <h3>FORMAL </h3>
+        <p>$8.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/sunscreen.webp" alt="Product 4">
+        <h3>SUNSCREEN </h3>
+        <p>$7.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/lipstick.webp" alt="Product 4">
+        <h3> LIPSTICK</h3>
+        <p>$3.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/explioter.webp" alt="Product 4">
+        <h3>EXPLIOTER </h3>
+        <p>$27.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/olay.webp" alt="Product 4">
+        <h3>OLAY </h3>
+        <p>$17.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/lakheme.webp" alt="Product 4">
+        <h3>LAKHME </h3>
+        <p>$12.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/clenziderm.jpg" alt="Product 4">
+        <h3>CLENZIDERM </h3>
+        <p>$120.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/ceramidin.webp" alt="Product 4">
+        <h3>CERAMIDIN</h3>
+        <p>$30.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/cerva.webp" alt="Product 4">
+        <h3>CERAVA</h3>
+        <p>$100.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/dove.webp" alt="Product 4">
+        <h3>DOVE </h3>
+        <p>$11.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/cetaphil.webp" alt="Product 4">
+        <h3>CETAPHIL </h3>
+        <p>$17.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/baby.webp" alt="Product 4">
+        <h3>BABY SOAP </h3>
+        <p>$117.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/photo10.webp" alt="Product 4">
+        <h3>REDMI 5C </h3>
+        <p>$98.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/photo9.webp" alt="Product 4">
+        <h3>SAMSUNG S24 </h3>
+        <p>$118.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/photo11.webp" alt="Product 4">
+        <h3>ONE PLUS </h3>
+        <p>$85.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/photo14.webp" alt="Product 4">
+        <h3>GOOGLE PIXEL </h3>
+        <p>$100.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/photo16.webp" alt="Product 4">
+        <h3>IPHONE 15 </h3>
+        <p>$120.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/nothing.webp" alt="Product 4">
+        <h3>NOTHING </h3>
+        <p>$67.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/motorola.webp" alt="Product 4">
+        <h3> MOTOROLA</h3>
+        <p>$53.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/iphone16.webp" alt="Product 4">
+        <h3>IPHONE 16 </h3>
+        <p>$150.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/watch2.webp" alt="Product 4">
+        <h3>FOSSIL </h3>
+        <p>$67.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/watch3.webp" alt="Product 4">
+        <h3>TITAN </h3>
+        <p>$77.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/watch4.webp" alt="Product 4">
+        <h3> TIMEX </h3>
+        <p>$87.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/watch5.webp" alt="Product 4">
+        <h3> SONOTA </h3>
+        <p>$45.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/camera3.webp" alt="Product 4">
+        <h3> NIKON </h3>
+        <p>$70.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/camera2.webp" alt="Product 4">
+        <h3> CANNOA </h3>
+        <p>$65.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/camera1.webp" alt="Product 4">
+        <h3> KODAK </h3>
+        <p>$45.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/camera4.webp" alt="Product 4">
+        <h3> SONY </h3>
+        <p>$95.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/watch5.webp" alt="Product 4">
+        <h3> SONOTA </h3>
+        <p>$45.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="IMAGE/watch5.webp" alt="Product 4">
+        <h3> SONOTA </h3>
+        <p>$45.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+   </section>
+    <footer class="footer">&copy; 2024 MyShop. All Rights Reserved.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
